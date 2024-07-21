@@ -674,9 +674,9 @@
 
 // Event Listner In Javascript
 
-let heading = document.getElementById("heading");
-let box1 = document.getElementById("box1");
-let btnClick = document.getElementById("btnClick");
+// let heading = document.getElementById("heading");
+// let box1 = document.getElementById("box1");
+// let btnClick = document.getElementById("btnClick");
 
 // // btnClick.addEventListener("click",function()){
 // //     console.log("Clicked");
@@ -688,21 +688,21 @@ let btnClick = document.getElementById("btnClick");
     
 
 // });
-btnClick.addEventListener("click", () =>{
-    console.log("Clicked");
-    box1.classList.add("classBox");
+// btnClick.addEventListener("click", () =>{
+//     console.log("Clicked");
+//     box1.classList.add("classBox");
     
 
-});
+// });
 
-btnClick.addEventListener("mouseover", () =>{
-    btnClick.style.transform = "scale(1.1)";
-    heading.innerText = "hvfasdbehb bfashgejfnhj";
-    heading.style.backgroundColor = "aqua";
-    heading.style.color = "grey";
+// btnClick.addEventListener("mouseover", () =>{
+//     btnClick.style.transform = "scale(1.1)";
+//     heading.innerText = "hvfasdbehb bfashgejfnhj";
+//     heading.style.backgroundColor = "aqua";
+//     heading.style.color = "grey";
     
 
-});
+// });
 
 // window.addEventListener("contextmenu", (e) =>{
 //     e.preventDefault();
@@ -782,3 +782,100 @@ btnClick.addEventListener("mouseover", () =>{
 
 // let noww = new Date().getMonth();
 // console.log(noww);
+
+
+
+//Set timeOut and  SetTimeInterval
+
+// const myFun = ()=>{
+//     console.log("I love JS");
+// };
+
+// // setTimeout
+
+// setTimeout(myFun,2000);
+// const myFunn = (()=>{
+//     console.log("I love JS");
+// },2000);
+
+// const intervalId = setInterval(() =>{
+//     console.log("I love JS");
+// },1000);
+
+// setTimeout(() =>{
+//     clearInterval(intervalId);
+
+// },5000);
+
+
+
+// Clock using clocksetout
+
+// function UpdateClock(){
+//     const clock = document.querySelector(".clock");
+//     const now = new Date();
+//     const hours = now.getHours().toString().padStart(2,"0");
+//     const minutes = now.getMinutes().toString().padStart(2,"0");
+//     const seconds = now.getSeconds().toString().padStart(2,"0");
+// console.log("HELLO");
+//     clock.innerHTML = `${hours}:${minutes}:${seconds}`;
+
+// }
+//  setInterval(UpdateClock, 1000);  
+
+
+
+// OOP in js
+
+// function Person(name,age,address){
+//     this.name = name;
+//     this.age = age;
+//     this.address = address;
+//     this.greeting = function(){
+//         let greet =`Hello my name is ${this.name}. I am ${this.age} years old . and i am from ${this.address}`
+//         return greet;
+//     };
+
+// }
+
+// const person1 = new Person("Ram Thapa" ,23 , "Dillibazzar");
+// const person2 = new Person("Ram Thapa" ,23 , "Dillibazzar");
+// console.log(person1,person2);
+
+
+// Bank Account(Function ko Object)
+
+// function BankAccount(customerName,balance = 0){
+//     this.customerName = customerName;
+//     this.balance = balance;
+//     this.accountNumber = Date.now();
+
+//     this.deposit = function (amount){
+//         this.balance+= amount;
+//     };
+
+//     this.withdraw = function (amount){
+//         this.balance-= amount;
+//     };
+
+
+// }
+
+// const addForm = document.querySelector("#addForm");
+// const customerName = document.querySelector("#customerName");
+// const balance = document.querySelector("#balance");
+
+// let account = [];
+// addForm.addEventListener("submit",(e)=>{
+//     e.preventDefault();
+//      let account = new BankAccount(customerName.value,+balance.value);
+//      accounts.push(account);
+//      console.log(accounts);
+// })
+
+// const ramAccount = new BankAccount("Ram Thapa",1000);
+// const shyamAccount = new BankAccount("Shyam Bhandari",8000);
+// shyamAccount.deposit(4000);
+// shyamAccount.withdraw(3000);
+
+// console.log(ramAccount,shyamAccount);
