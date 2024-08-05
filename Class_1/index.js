@@ -878,4 +878,78 @@
 // shyamAccount.deposit(4000);
 // shyamAccount.withdraw(3000);
 
-// console.log(ramAccount,shyamAccount);
+
+
+
+
+
+// Array Of An Object most important Topic
+
+
+// document.write("Hello World");
+
+// function Display(){
+//     for(let i=0;i<100;i++){
+//         document.write(i);
+//     }
+// }
+
+// Display();
+
+// setTimeout(() =>{
+//     alert("I love js");
+// },4000);
+
+
+// document.write("Hey Khadaka");
+
+
+// CallBack
+
+
+// function Sum(a,b,cb){
+//     const ans = a+b;
+//     cb(ans);
+// }
+
+// function Display(result){
+//     const h1 = document.createElement("h1");
+//     h1.innerText = `The sum of Result is : ${result}`;
+//     document.body.append(h1);
+// }
+
+// Sum(4,9,Display);
+// Array.array.forEach(element => {
+    
+// });
+
+
+
+
+
+// let arr = [4,5,6,7,89,0,2];
+
+// function Calculate(arr = [],let cb{
+//     let ans = [];
+//     for(let i=0; i< arr.length; i++){
+//         const element = cb(arr[i]);
+//         ans.push(element);
+//     }
+// });
+
+
+
+
+// Promices
+
+
+// new Promise((resolve,rejected)=>{
+//   resolve("Promices FullFill");
+// });
+
+// res.then((param) => console.log(param )).catch((error)=>)
+
+
+
+
+
